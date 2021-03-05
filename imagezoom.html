@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image zoom</title>
+	<style type="text/css">
+		.container{
+			height: 100px;
+			width: 150px;
+			border: 20px solid green;
+			overflow: hidden;
+		}
+		img{
+			height: 100%;
+			width: 100%;
+			transition: all 1s;
+		}
+		.conatiner:hover img{
+			transform: scale(0.5);
+		}
+	</style>
+</head>
+<body>
+     <div class="conatiner">
+     	<img src="../download.jfif">
+     </div>
+</body>
+</html>
